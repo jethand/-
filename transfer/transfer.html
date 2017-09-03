@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>穿梭框 |  Jquery</title>
+</head>
+<link rel="stylesheet" href="./index.css">
+<link rel="stylesheet" href="./normalize.css">
+<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+<script src="./transfer.js"></script>
+<body>
+    <div class="transfer">
+        <div class="transfer-panel" style="float: left;">
+            <div class="transfer-panel-head">列表1</div>
+            <div class="transfer-panel-body transfer-body-left">
+                
+            </div>
+            <div class="transfer-panel-foot transfer-foot-left">
+                共选了<strong class="transfer-panel-foot_leftnum"></strong>项
+            </div>
+        </div>
+        <div class="transfer-button-group" style="float: left;margin: 120px 20px 20px;">
+            <button class="transfer-btn-primary transfer-goRight" style="display: block;margin: 80px 35px 20px;">>></button>
+            <button class="transfer-btn-primary transfer-goLeft" style="display: block;margin: 0 35px;"><<</button>
+        </div>
+        <div class="transfer-panel" style="float: right;">
+            <div class="transfer-panel-head">列表2</div>
+            <div class="transfer-panel-body transfer-body-right">
+
+            </div>
+            <div class="transfer-panel-foot transfer-foot-right">
+                共选了<strong class="transfer-panel-foot_rightnum"></strong>项
+            </div>
+        </div>
+    </div>
+</body>
+</html>

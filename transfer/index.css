@@ -1,0 +1,103 @@
+.transfer{
+    width: 600px;
+    margin: 50px auto;
+}
+.transfer-panel{
+    width: 220px;
+    min-height: 500px;
+    max-height: 500px;
+    overflow: auto;
+    box-shadow: 0 2px 4px rgba(0,0,0,.12), 0 0 6px rgba(0,0,0,.04);
+    background-color: #fff;
+    border: 1px solid #d1dbe5;
+    vertical-align: middle;
+    box-sizing: border-box;
+    position: relative;
+}
+/*head*/
+.transfer-panel-head{
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    border-bottom: 1px solid #d1dbe5;
+    box-sizing: border-box;
+    color: #1f2d3d;
+    background: #fbfdff;
+    padding-left: 20px;
+}
+/*body*/
+.transfer-panel-body{
+    width: 100%;
+    min-height: 428px;
+    max-height: 428px;
+    overflow: auto;
+    padding: 5px 0;
+}
+.transfer-panel-item{
+    padding: 0;
+    box-sizing: border-box;
+}
+.transfer-panel-item__head{
+    color: #324057;
+    padding: 8px 0 8px 20px;
+    font-size: 14px;
+    cursor: pointer; 
+    border-bottom: 1px solid #d1dbe5;
+}
+.active-collapse{
+    background-color: #99A9BF;
+}
+.transfer-panel-item__wrap{
+
+}
+.transfer-item-li{
+    padding: 8px 15px;
+    font-size: 13px;
+    color: #1f2d3d;
+    cursor: pointer;
+}
+.transfer-item-li .transfer-item-checkbox{
+    margin-right: 8px;
+}
+.transfer-item-li:hover{
+    background-color: #D3DCE6;
+}
+.transfer-btn-primary{
+    display:inline-block;
+    line-height:1;
+    white-space:nowrap;
+    cursor:pointer;
+    background:#20a0ff;
+    border:1px solid #20a0ff;
+    border-color:#20a0ff;
+    color:#FFFFFF;
+    text-align:center;
+    box-sizing:border-box;
+    outline:none;
+    margin:0;
+    user-select:none;
+    padding:10px 15px;
+    font-size:14px;
+    border-radius:4px
+}
+.transfer-btn-primary:hover{
+    opacity: .8;
+}
+/*foot*/
+.transfer-panel-foot{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 36px;
+    width: 100%;
+    line-height: 36px;
+    font-size: 14px;
+    border-top: 1px solid #d1dbe5;
+    box-sizing: border-box;
+    color: #1f2d3d;
+    background: #fbfdff;
+    padding-left: 20px;
+}
+.btn-not-allow{
+    cursor: not-allowed;
+}
